@@ -86,7 +86,7 @@
 
 /* O MOTEL */
 .the-motel-section{
-    background-image: url(/components/img/background\ Luxury\ The\ Motel.jpg);
+    background-image: url(../components/img/background\ Luxury\ The\ Motel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:auto;
@@ -150,7 +150,7 @@
         }
 
     .the-motel-img-one{
-        background-image: url(/components/img/RoomAboltone.jpg);
+        background-image: url(../components/img/RoomAboltone.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -167,7 +167,7 @@
     }
 
     .the-motel-img-two{
-        background-image: url(/components/img/backgroundaboldthree.jpg);
+        background-image: url(../components/img/backgroundaboldthree.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
@@ -183,7 +183,7 @@
     }
 
     .the-motel-img-three{
-        background-image: url(/components/img/backgroundaboldtwo.jpg);
+        background-image: url(../components/img/backgroundaboldtwo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -226,14 +226,14 @@
 }
 
     .room-img-one{
-        background-image: url(/components/img/RoomOne.jpg);
+        background-image: url(../components/img/RoomOne.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 250px;
     }
 
     .room-img-two{
-        background-image: url(/components/img/RoomTwo.jpg);
+        background-image: url(../components/img/RoomTwo.jpg);
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -241,7 +241,7 @@
     }
 
     .room-img-three{
-        background-image: url(/components/img/RoomThree.jpg);
+        background-image: url(../components/img/RoomThree.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 250px;
@@ -325,7 +325,7 @@
 
 /* ATENDIMENTO EXCLUSIVO */
 .attendance-section{
-    background-image: url(/components/img/background\ Luxury\ The\ Motel.jpg);
+    background-image: url(../components/img/background\ Luxury\ The\ Motel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -339,7 +339,7 @@
 }
 
 .attendance-img-one{
-    background-image: url(/components/img/Cama\ Personalizada.jpg);
+    background-image: url(../components/img/Cama\ Personalizada.jpg);
     background-size: cover;
     width: 450px;
     height: 300px;
@@ -349,7 +349,7 @@
 }
 
 .attendance-img-two{
-    background-image: url(/components/img/decoracao-romantica-00.jpg);
+    background-image: url(../components/img/decoracao-romantica-00.jpg);
     background-size: cover;
     width: 330px;
     height: 180px;
@@ -421,7 +421,7 @@
 
     gap: 50px;
     
-    background-image: url(/components/img/background\ Luxury\ rooms.jpg);
+    background-image: url(../components/img/background\ Luxury\ rooms.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
