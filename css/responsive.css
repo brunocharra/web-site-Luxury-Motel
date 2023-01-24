@@ -1,0 +1,266 @@
+@media (min-width: 1000px) and (max-width: 1250px){
+
+    @media (max-width: 1150px){
+        .attendance-img-one{
+            width: 400px;
+            height: 270px;
+        }
+
+        .attendance-img-two{
+            width: 300px;
+            height: 180px;
+            transform: translate(130px, -100px);
+        }
+
+        .attendance-container-inf{
+            max-width: 500px;
+        }
+
+    }
+
+    @media (max-width: 1100px){
+        .the-motel-container-abolt{
+            max-width: 410px;
+        }
+    }
+
+        .the-motel-img-one{
+            height:175px ;
+            width: 300px;
+
+            margin-left: -180px;
+            margin-top: 320px;
+        }
+
+        .the-motel-img-two{
+            height:350px ;
+            width: 230px;
+
+            margin-top: 50px;
+            margin-left: -150px;
+        }
+
+        .the-motel-img-three{
+            height:500px ;
+            width: 290px;
+        }
+}
+
+@media (min-width: 700px) and (max-width: 999px){
+
+
+
+    @media (max-width: 960px) {
+        .container-menu-list{
+            gap: 20px;
+        }
+    
+        .menu-iten{
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .conatiner-header{
+            justify-content: center;
+        }
+
+        .container-menu-list{
+            gap: 35px;
+        }
+
+        .menu-logo{
+            display: none;
+        }
+    }
+
+    @media (max-width: 980px){
+        .rooms-container{
+            flex-direction: column;
+            width: 90vw;
+        }
+    
+        .room-conatiner-diamont{
+            display: flex;
+            justify-content: space-between;
+            background: linear-gradient(45deg, #ffffff12 0%, rgba(0,0,0,0) 35%, #ffffff12 100%);
+            min-width: 90vw;
+        }
+            .room-img-one,
+            .room-img-two,
+            .room-img-three{
+                height:unset;
+                width: 500px;
+    
+            }
+    
+            .room-conatiner-inf{
+                max-width: 450px;
+            }
+        
+            .inf-unordered-lisr{
+                display: flex;
+                gap: 30px;
+            }
+    
+    }
+
+    @media (max-width: 750px){
+        .rooms-container{
+            width: 90vw;
+            gap: 50px;
+        }
+    
+        .room-conatiner-diamont{
+            flex-direction: column;
+            background: linear-gradient(45deg, #ffffff12 0%, rgba(0,0,0,0) 35%, #ffffff12 100%);
+            min-width: 90vw;
+        }
+            .room-img-one{
+                height:280px;
+                width: 100%;
+            }
+    
+            .room-conatiner-inf{
+                max-width: 450px;
+            }
+            .inf-unordered-lisr{
+                gap: 30px;
+            }
+    
+    }
+
+
+    .attendance-section{
+        flex-direction: column;
+    }
+        .attendance-img-one{
+            width: 616px;
+            height: 300px;
+        }
+
+        .attendance-img-two,
+        .the-motel-img-one,
+        .the-motel-img-two{
+            display: none;
+        }
+
+    .the-motel-img-three{
+    height:500px ;
+    width: 350px;
+    }
+}
+
+@media(max-width: 700px){
+    #buton-mobile{
+        display: unset;
+    }
+
+    .localization-container{
+        flex-direction: column;
+    }
+
+    .container-inf-location{
+        transform: unset;
+    }
+
+    .localization-map{
+        height: 350px;
+        width: 80vw;
+    }
+}
+
+@media(min-width: 700px){
+    #button-mobile{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 300px) and (max-width: 699px){
+
+    .hero-title{
+        font-size: 3.5rem;
+        color: #efc75e;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .container-menu-list{
+        display:none;
+    }
+
+    .active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        gap: 30px;
+    
+        position: absolute;
+    
+        width: 100%;
+    
+        right: 0;
+        margin-top: 15px;
+        padding: 30px 0;
+    
+        background-color: white;
+        border-bottom: solid #070743 1px;
+    }
+
+    .the-motel-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .the-motel-img-one{
+        width: 90vw;
+        height: 300px;
+        position: unset;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .rooms-container{
+        flex-direction: column;
+        width: 90vw;
+        gap: 50px;
+    }
+
+    .room-conatiner-diamont{
+        flex-direction: column;
+        background: linear-gradient(45deg, #ffffff12 0%, rgba(0,0,0,0) 35%, #ffffff12 100%);
+        min-width: 90vw;
+    }
+        .room-img-one{
+            height:280px;
+            width: 100%;
+        }
+        .room-conatiner-inf{
+            max-width: 450px;
+        }
+        .inf-unordered-lisr{
+            gap: 30px;
+        }
+    
+    .attendance-section{
+        flex-direction: column;
+    }
+        .attendance-img-one{
+            width: 90vw;
+            height: 300px;
+        }
+
+        .attendance-img-two,
+        .the-motel-img-three,
+        .the-motel-img-two{
+            display: none;
+        }
+
+    .help-container{
+        flex-direction: column;
+    }
+
+}

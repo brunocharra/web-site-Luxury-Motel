@@ -1,0 +1,501 @@
+/* MENU */
+
+#button-mobile{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    color: #efc75e;
+    background-color: black;
+    border: solid #624e1c 1px;
+}
+
+.conatiner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position:fixed;
+
+    z-index: 10;
+
+    width: 100vw;
+    height: 70px;
+
+    margin: 0 auto;
+    padding: 0 5vw;
+
+    background-color: black;
+    }
+
+    .menu-logo{
+        height: 50px;
+        width: auto;
+    }
+    
+    .container-menu-list{
+        display: flex;
+        gap: 50px;
+    }
+
+    .menu-iten{
+        color: #8d8d8d;
+        font-size: 1.3rem;
+        transition: .5s;
+    }
+
+        .menu-iten:hover{
+            color: #efc75e;
+            font-size: 1.3rem;
+        }
+/* MENU */
+
+
+
+/* HERO */
+.hero-section{
+    background-image: url(/components./img./herobackground.jpg);
+    background-position: bottom;
+
+    height: 95vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title{
+    font-size: 6rem;
+    color: #efc75e;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.hero-paragraph{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* HERO */
+
+
+
+/* O MOTEL */
+.the-motel-section{
+    background-image: url(/components/img/background\ Luxury\ The\ Motel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+
+    padding: 50px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-motel-container-abolt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    gap: 30px;
+}
+
+.the-motel-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+    .the-motel-logo{
+        height: 100px;
+        width: auto;
+        background-color: black;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.881) 0px 5px 15px;
+    }
+
+    .abolt-paragraph{
+        font-size: 1.3rem;
+        color: white;
+        text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.693);
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .abolt-title{
+        font-size: 2rem;
+        color: #efc75e;
+        background-color: black;
+        padding: 15px;
+    }
+
+    .abolt-button{
+        font-size: 1.3rem;
+        color: #efc75e;
+        background-color: black;
+        padding: 15px 60px;
+        border: solid #624e1c 1px;
+        transition: 1s;
+    }
+
+        .abolt-button:hover{
+        background-color: #efc75e;
+        color: black;
+        }
+
+    .the-motel-img-one{
+        background-image: url(/components/img/RoomAboltone.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height:200px ;
+        width: 350px;
+        position: absolute;
+
+        z-index: 10;
+
+        margin-left: -250px;
+        margin-top: 320px;
+
+        box-shadow: rgba(0, 0, 0) 0px 5px 15px;
+    }
+
+    .the-motel-img-two{
+        background-image: url(/components/img/backgroundaboldthree.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+
+        height:400px ;
+        width: 280px;
+        position: absolute;
+
+        margin-top: 50px;
+        margin-left: -215px;
+
+        box-shadow: rgba(0, 0, 0) 0px 5px 15px;
+    }
+
+    .the-motel-img-three{
+        background-image: url(/components/img/backgroundaboldtwo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        height:550px;
+        width: 350px;
+
+        box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    }
+/* O MOTEL */
+
+
+
+/* SUITES */
+.rooms-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .rooms-title{
+        color: white;
+        font-size: 3.5rem;
+        margin: 50px 0px;
+    }
+    
+.rooms-container{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+
+    width: 90vw;
+}
+
+.room-conatiner-diamont{
+    background: linear-gradient(45deg, #ffffff12 0%, rgba(0,0,0,0) 35%, #ffffff12 100%);
+
+    max-width: 440px;
+    min-width: 280px;
+}
+
+    .room-img-one{
+        background-image: url(/components/img/RoomOne.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+    .room-img-two{
+        background-image: url(/components/img/RoomTwo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        height: 250px;
+    }
+
+    .room-img-three{
+        background-image: url(/components/img/RoomThree.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+
+    .room-conatiner-inf{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+        .inf-title{
+            font-size: 1.8rem;
+            color: #efc75e;
+        }
+
+        .inf-paragraph{
+            font-size: 1rem;
+            color: white;
+            line-height: 20px;
+
+        }
+
+        .inf-list-item{
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .button-reserve{
+            font-size: 1rem;
+            color: #efc75e;
+            background-color: black;
+            max-width: 150px;
+            padding: 15px 15px;
+            border: solid #624e1c 1px;
+            transition: 1s;
+        }
+
+            .button-reserve:hover{
+        background-color: #efc75e;
+        color: black;
+        }
+
+.room-now-more{
+    font-size: 2rem;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    padding: 0px 30px;
+}
+
+.room-six-star{
+    max-width: 90vw;
+    height: auto;
+}
+
+.all-Rooms-Button{
+    font-size: 2rem;
+    color: #efc75e;
+    background-color: black;
+    width: 90vw;
+    max-width: 600px;
+    padding: 30px 0px;
+    margin: 50px 0px 200px 0px;
+    border: solid #624e1c 1px;
+}
+
+    .all-Rooms-Button:hover{
+        background-color: #efc75e;
+        color: black;
+        }
+/* SUITES */
+
+
+
+/* ATENDIMENTO EXCLUSIVO */
+.attendance-section{
+    background-image: url(/components/img/background\ Luxury\ The\ Motel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.attendance-container-img{
+    margin-bottom: 50px;
+}
+
+.attendance-img-one{
+    background-image: url(/components/img/Cama\ Personalizada.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    background-color: #3b3b3b;
+    box-shadow: rgba(0, 0, 0, 0.881) 0px 5px 15px;
+
+}
+
+.attendance-img-two{
+    background-image: url(/components/img/decoracao-romantica-00.jpg);
+    background-size: cover;
+    width: 330px;
+    height: 180px;
+    position: absolute;
+    transform: translate(150px, -100px);
+    background-color: #262626;
+    box-shadow: rgba(0, 0, 0, 0.881) 0px 5px 15px;
+
+}
+
+.attendance-title{
+    color:#efc75e;
+    font-size: 3rem;
+    background-color: black;
+    padding: 15px;
+    margin: 20px 20px 20px 20px;
+}
+
+.attendance-paragraph{
+    color: white;
+    font-size: 1.3rem;
+    max-width: 550px;
+    margin: 0px 20px 20px 20px;
+
+}
+
+.attendance-button{
+    margin: 50px 20px 20px 20px;
+    padding: 20px 30px;
+    font-size: 1rem;
+    color: #efc75e;
+    background-color: black;
+    border: solid #624e1c 1px;
+    transition: 1s;
+}
+
+        .attendance-button:hover{
+    background-color: #efc75e;
+    color: black;
+    }
+/* ATENDIMENTO EXCLUSIVO */
+
+
+
+
+
+
+
+
+/* LOCALIZAÇÃO */
+.localization-section{
+    display: flex;
+    justify-content: center;
+}
+
+.localization-container{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+    padding: 50px;
+    border: solid #624e1c 1px;
+}
+
+    .container-inf-location{
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+    
+    background-image: url(/components/img/background\ Luxury\ rooms.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translateX(50px);
+    padding: 25px;
+    }
+    
+        .localization-title{
+            font-size: 2rem;
+            color: white;
+        }
+
+        .localization-paragraph{
+            font-size: 1.3rem;
+            color: white;
+        }
+
+        .localization-button-reserve{
+            font-size: 1rem;
+            color: #efc75e;
+            background-color: black;
+            max-width: 150px;
+            padding: 15px 50px;
+            border: solid #624e1c 1px;
+            transition: 1s;
+        }
+
+             .localization-button-reserve:hover{
+                background-color: #efc75e;
+                color: black;
+            }
+
+.localization-map{
+    background-color: #3b3b3b;
+    height: 350px;
+    width: 500px;
+}
+/* LOCALIZAÇÃO */
+
+
+
+
+/* FOOTER */
+#help-section{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+
+.help-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90VW;
+    margin-top: 50px;
+}
+
+    .help-title{
+        font-size: 1rem;
+        text-transform: uppercase;
+        color:#efc75e;
+
+        margin-top: 20px;
+        padding: 0px 0px;
+    }
+
+    .help-article{
+        color: #ffffff;
+        list-style: none;
+        font-size: .8rem;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    /* FOOTER */
