@@ -5,7 +5,7 @@ html{
 
 
 body{
-    background-image: url(/components/img/background\ Luxury\ rooms.jpg);
+    background-image: url(../components/img/background\ Luxury\ rooms.jpg);
     background-repeat: repeat-y;
     background-size: contain;
     font-size: 62.5%;
