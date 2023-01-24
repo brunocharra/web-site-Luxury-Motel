@@ -52,7 +52,7 @@
 
 /* HERO */
 .hero-section{
-    background-image: url(../components./img./herobackground.jpg);
+    background-image: url(components/img/herobackground.jpg);
     background-position: bottom;
 
     height: 95vh;
